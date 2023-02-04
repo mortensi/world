@@ -8,3 +8,11 @@ As reported in the source database, the world database is Copyright Statistics F
 
 1. Download the `world.txt` file
 2. Import into Redis with `cat world.txt | redis-cli`
+
+## Notes
+
+* All the entities are stored as Redis Hashes
+* The database presents three entities: `city`, `country`, `countrylanguage`
+* `city`'s unique key is an autoincrement integer, e.g. `city:653`
+* `country`'s unique key is the country code, e.g. `country:esp`
+* `countrylanguage`'s unique key is an autoincrement integer, e.g. `countrylanguage:6`
