@@ -6,7 +6,7 @@ As reported in the source database, the world database is Copyright Statistics F
 
 ## Usage
 
-1. Download the `world.txt` file
+1. Download the [`world.txt`](https://raw.githubusercontent.com/mortensi/world/main/world.txt) file
 2. Import into Redis with `cat world.txt | redis-cli`
 
 ## Notes
